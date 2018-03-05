@@ -20,8 +20,6 @@ public class HandlerImplTest {
     private HandlerImpl instance;
     private ArrayList<String> list;
     String[] array = new String[4];
-    private ArrayList<Integer> intList;
-
 
     @BeforeEach
     void init() {
