@@ -104,6 +104,7 @@ public class HandlerImpl implements Handler {
 
     /*
         Return true or false weather the person is at work or not.
+        Working hours are between 8-16.
      */
     @Override
     public boolean isAtWork(int hour) {
